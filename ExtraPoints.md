@@ -1,4 +1,4 @@
-## How to Track and Compare Model Training Metrics Across Different Training Runs?
+## 1. How to Track and Compare Model Training Metrics Across Different Training Runs?
 
 Tracking and comparing metrics across different training runs is essential for model optimization. Here's how you can do it:
 
@@ -7,7 +7,7 @@ Tracking and comparing metrics across different training runs is essential for m
 - **Logging Framework**: Implement a logging system within your training scripts to record all relevant metrics. This data can then be used for comparison and analysis.
 - **Data Versioning Tools**: Tools like DVC can be instrumental in versioning datasets and correlating changes in data with model performance metrics.
 
-## How to Perform Versioning of Different Models Trained?
+## 2. How to Perform Versioning of Different Models Trained?
 
 Model versioning is a key part of ML Ops, involving the management of various model versions. This can be achieved through:
 
@@ -16,7 +16,7 @@ Model versioning is a key part of ML Ops, involving the management of various mo
 - **Model Registry Tools**: Tools such as MLflow’s Model Registry offer systematic ways to track, version, and manage models, including storing associated metadata.
 - **Metadata Inclusion**: Alongside each model version, store metadata documenting training data, hyperparameters, and training outcomes.
 
-## How to Perform Model Deployment for Real-Time Predictions Serving?
+## 3. How to Perform Model Deployment for Real-Time Predictions Serving?
 
 Deploying models for real-time predictions involves several steps to ensure efficient and scalable serving:
 
